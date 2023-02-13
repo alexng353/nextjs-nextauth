@@ -29,10 +29,6 @@ export const authOptions = {
       clientSecret: process.env.GOOGLE_SECRET!,
     }),
   ],
-  pages: {
-    signIn: "/login",
-    error: "/auth/error",
-  },
   jwt: {
     maxAge: 60 * 60 * 24 * 30,
   },
